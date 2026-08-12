@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "test-crawl": "node src/utils/crawlTest.js",
+    "test-crawl-local": "node -e \"const CrawlTest = require('./src/utils/crawlTest.js'); const crawler = new CrawlTest('http://localhost:3000'); crawler.testCrawl();\""
+  }
+}

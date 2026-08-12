@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /admin-login/
+Disallow: /admin-dashboard/
+Disallow: /app-admin/
+
+
+Allow: /
+Allow: /feed
+
+Sitemap: https://www.riverdayspa.com/sitemap.xml

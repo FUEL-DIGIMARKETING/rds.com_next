@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Clean Blog Image URLs</title>
+</head>
+<body>
+    <h1>Testing Clean Blog Image URLs</h1>
+    
+    <h2>Clean URLs (should work):</h2>
+    <img src="/uploads/blogs/2025/11/best-massage-centres.webp" alt="Best Massage Centres" style="max-width: 300px; margin: 10px;">
+    <br>
+    <img src="/uploads/blogs/2025/11/female-to-male-massage-spa.webp" alt="Female to Male Massage Spa" style="max-width: 300px; margin: 10px;">
+    
+    <h2>Old URLs with timestamps (should not work):</h2>
+    <img src="/uploads/blogs/2025/11/best-massage-centres-1762150589719.webp" alt="Old URL" style="max-width: 300px; margin: 10px;">
+    
+    <h2>Next.js Image Optimization URLs:</h2>
+    <p>These should redirect to clean URLs:</p>
+    <img src="/_next/image?url=%2Fuploads%2Fblogs%2F2025%2F11%2Fbest-massage-centres.webp&w=1920&q=75" alt="Next.js Optimized" style="max-width: 300px; margin: 10px;">
+</body>
+</html>

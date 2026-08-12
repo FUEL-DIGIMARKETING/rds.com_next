@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/logo-BFRKLcbn.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Spa in Chennai - Enrich your Health with Our Services</title>
+    <meta property="og:description" content="Riverdayspa™ is one of the Best Spa in Chennai. We offer quality and professional massage therapy all over the bustling cities of Tamil Nadu and Bangalore." />
+    <meta name="description" content="Riverdayspa™ is one of the Best Spa in Chennai. We offer quality and professional massage therapy all over the bustling cities of Tamil Nadu and Bangalore." />
+ <!-- Google Tag (gtag.js) -->
+ <script  src="https://www.googletagmanager.com/gtag/js?id=G-807EKRMBCD"></script>
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag() { dataLayer.push(arguments); }
+   gtag('js', new Date());
+   gtag('config', 'G-807EKRMBCD');
+   gtag('config', 'AW-304971212');
+ </script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/61f154c3b9e4e21181bc02ac/1fqbb67ja';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+<!-- Google reCAPTCHA v3 -->
+<script src="https://www.google.com/recaptcha/api.js?render=6LeTZIkpAAAAAEQhlK6VGgoARfwYkTfgBLQFavvV"></script>
+
+    <script type="module" crossorigin src="./assets/index-CDVPPY8n.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-izDo-CgU.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"9515262cab0346da9ae070d5fbc6e588","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

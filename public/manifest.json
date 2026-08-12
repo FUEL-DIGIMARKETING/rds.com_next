@@ -1,0 +1,25 @@
+{
+  "name": "River Day Spa - Best Spa in Chennai",
+  "short_name": "River Day Spa",
+  "description": "Riverdayspa™ is one of the Best Spa in Chennai. We offer quality and professional massage therapy all over the bustling cities of Tamil Nadu and Bangalore.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a365d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico?v=2",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": [
+    "health",
+    "lifestyle",
+    "wellness"
+  ],
+  "lang": "en-US",
+  "scope": "/",
+  "id": "riverdayspa-app"
+}

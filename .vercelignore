@@ -1,0 +1,2 @@
+# Don't ignore uploads folder
+!public/uploads/
