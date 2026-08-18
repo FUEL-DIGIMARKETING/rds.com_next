@@ -425,7 +425,7 @@ export default function ChocolateScrubPage() {
         {/* FAQ Section */}
         <div className="text-center mb-12">
           <motion.h4
-            className="text-3xl font-bold text-[#8D7B68] mb-6"
+            className="text-2xl font-bold text-[#8D7B68] mb-6"
             {...fadeUp}
           >
             Frequently Asked Questions
@@ -492,7 +492,7 @@ export default function ChocolateScrubPage() {
             }}
           >
             <motion.h5
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+              className="text-xl md:text-2xl lg:text-3xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             > The Ultimate Chocolate Body Scrub for Delicate Skin
             </motion.h5>

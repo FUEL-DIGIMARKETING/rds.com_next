@@ -202,7 +202,7 @@ export default function BodyScrubCenterPage() {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    Learn More
+                    Know More
                   </motion.button>
                 </Link>
               </div>
@@ -223,12 +223,12 @@ export default function BodyScrubCenterPage() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <motion.h3
-            className="text-3xl md:text-4xl font-bold text-[#8D7B68] mb-6"
+          <motion.h4
+            className="text-2xl md:text-3xl font-bold text-[#8D7B68] mb-6"
             {...fadeUp}
           >
             Transform Your Skin Today
-          </motion.h3>
+          </motion.h4>
           <motion.p
             className="text-[#3E3636]/90 text-lg leading-relaxed mb-8 max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 20 }}

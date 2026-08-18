@@ -288,7 +288,7 @@ export default function BodyWrapCenterPage() {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
-                      Learn More
+                      Know More
                     </motion.button>
                   </div>
                 </div>

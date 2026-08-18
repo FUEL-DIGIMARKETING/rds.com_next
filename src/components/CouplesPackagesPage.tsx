@@ -168,9 +168,9 @@ const BookingFormModal = ({ isOpen, onClose, selectedPackage }: any) => {
             <div className="p-6 border-b border-gray-200 bg-gradient-to-r from-[#8D7B68] to-[#6B5B4F]">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="text-xl font-bold text-white">
+                  <p className="text-xl font-bold text-white">
                     Book {selectedPackage?.title}
-                  </h3>
+                  </p>
                   <p className="text-white/90 font-medium mt-1">
                     {selectedPackage?.price}
                   </p>
@@ -424,9 +424,9 @@ export default function CouplesPackagesPage() {
 
                 {/* Content */}
                 <div className="mt-16 flex flex-col flex-grow">
-                  <h3 className="text-2xl font-bold text-white mb-2">
+                  <p className="text-2xl font-bold text-white mb-2">
                     {pkg.title}
-                  </h3>
+                  </p>
 
                   <div className="space-y-2 mb-4">
                     <p className="text-xl font-bold text-green-400">

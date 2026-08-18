@@ -29,23 +29,23 @@ const DeepTissueMassagePage = () => {
       icon: "🧘",
     },
     {
-      title: "Speedy Recovery",
+      title: "Speeds Recovery from Injuries",
       description: "Deep tissue massage helps in recovering from the injury stage of a problem by breaking down scar tissue, reducing inflammation, and promoting faster healing of injuries. It's enhancing the body's natural ability to repair itself to ensure quick return to normal activities.",
       icon: "⚡",
     },
     {
       title: "Enhances Flexibility",
-      description: "Regular sessions improve flexibility in the joints and muscles, break up tight muscles and fascia, provide more range of motion, and reduce the potential for or further injuries to the body from workout routines.",
+      description: "Regular sessions improve flexibility in the joints and muscles, break up tight muscles and fascia, provide more range of motion, and reduce the potential for or further injuries to the body from workout routines. Improved flexibility also contributes to higher athletic performance and day-to-day functional motion.",
       icon: "🤸",
     },
     {
       title: "Boosts Circulation",
-      description: "Deep strokes stimulate blood flow to deliver oxygen and nutrients to tissues more effectively, promoting healing and reducing swelling, and muscle soreness. Good blood flow also helps wash out by-products of muscle work and wastes in general, thus providing better recovery of muscles and ease of renewed strength.",
+      description: "Deep strokes stimulate blood flow to deliver oxygen and nutrients to tissues more effectively, promoting healing and reducing inflammation, swelling, and muscle soreness. Good blood flow also helps wash out by-products of muscle work and wastes in general, thus providing better recovery of muscles and ease of renewed strength.",
       icon: "❤️",
     },
     {
       title: "Supports Posture Correction",
-      description: "Deep tissue massage helps correct poor posture by addressing muscle imbalance and tension, relieving associated discomfort, and realigning the body toward overall structural balance and improved physical function. Proper alignment spares the muscles and joints from unnecessary stresses.",
+      description: "Deep tissue massage helps correct poor posture by addressing muscle imbalance and tension, relieving associated discomfort, and realigning the body toward overall structural balance and improved physical function. Proper alignment spares the muscles and joints from unnecessary stresses, improving comfort and efficiency during activities of daily living.",
       icon: "🏃",
     },
   ]
@@ -217,13 +217,13 @@ const DeepTissueMassagePage = () => {
       <section className="py-16 bg-gradient-to-br from-[#F8F5F0] to-[#EAE0D5] text-[#3E3636] w-full select-text">
         <div className="max-w-7xl mx-auto px-4 select-text">
           <div className="text-center mb-16">
-            <motion.h2
-              className="text-4xl lg:text-5xl font-bold text-[#8D7B68] mb-6 select-text"
+            <motion.h3
+              className="text-3xl lg:text-4xl font-bold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
 
               Unlock the Life-Changing Benefits of Deep Tissue Massage
-            </motion.h2>
+            </motion.h3>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-6" />
           </div>
 
@@ -270,12 +270,12 @@ const DeepTissueMassagePage = () => {
       <section className="py-16 bg-[#F8F5F0] text-[#3E3636] w-full select-text">
         <div className="max-w-7xl mx-auto px-4 select-text">
           <div className="text-center mb-16">
-            <motion.h2
+            <motion.p
               className="text-4xl lg:text-5xl font-bold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Why Choose River Salon and Day Spa?
-            </motion.h2>
+            </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full" />
           </div>
 
@@ -305,12 +305,12 @@ const DeepTissueMassagePage = () => {
       {/* FAQ Section */}
       <section className="py-16 bg-[#F8F5F0]">
         <div className="text-center mb-12">
-          <motion.h3
-            className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-4"
+          <motion.h4
+            className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-4"
             {...fadeUp}
           >
             Frequently Asked Questions
-          </motion.h3>
+          </motion.h4>
         </div>
         <div className="max-w-4xl mx-auto px-4">
           <div className="space-y-6">
@@ -367,12 +367,12 @@ const DeepTissueMassagePage = () => {
               boxShadow: '0 25px 45px rgba(0, 0, 0, 0.2)'
             }}
           >
-            <motion.h4
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+            <motion.h5
+              className="text-xl md:text-2xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Experience Deep Relief: Unwind with Expert Techniques and Soothing Comfort
-            </motion.h4>
+            </motion.h5>
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8"
               initial={{ scaleX: 0 }}

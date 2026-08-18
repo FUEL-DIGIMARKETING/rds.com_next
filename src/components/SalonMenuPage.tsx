@@ -290,12 +290,12 @@ export default function SalonMenuPage() {
 
               {/* Header */}
               <div className="relative pt-12 pb-6 text-center">
-                <h2 className="text-5xl font-script  text-white mb-2" style={{ fontFamily: 'Dancing Script, cursive' }}>
+                <p className="text-5xl font-script  text-white mb-2" style={{ fontFamily: 'Dancing Script, cursive' }}>
                   Riverdayspa
-                </h2>
-                <h3 className="text-xl font-bold bottom-10 text-white tracking-wider">
+                </p>
+                <p className="text-xl font-bold bottom-10 text-white tracking-wider">
                   HAIR SALON
-                </h3>
+                </p>
               </div>
 
               {/* Menu Content */}
@@ -303,14 +303,14 @@ export default function SalonMenuPage() {
                 {/* Hair Services with Men/Women sections */}
                 {sections.map((section, index) => (
                   <div key={index} className="space-y-4">
-                    <h4 className="text-2xl font-script text-center text-gray-700 border-b border-gray-300 pb-2" style={{ fontFamily: 'Dancing Script, cursive' }}>
+                    <p className="text-2xl font-script text-center text-gray-700 border-b border-gray-300 pb-2" style={{ fontFamily: 'Dancing Script, cursive' }}>
                       {section.title}
-                    </h4>
+                    </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
                       {/* Women Section */}
                       <div>
-                        <h5 className="text-lg font-semibold text-pink-600 mb-3 text-center">Women</h5>
+                        <p className="text-lg font-semibold text-pink-600 mb-3 text-center">Women</p>
                         <div className="space-y-2">
                           {section.content.Women.map((item, itemIndex) => (
                             <div key={itemIndex} className="flex justify-between items-center py-1">
@@ -326,7 +326,7 @@ export default function SalonMenuPage() {
 
                       {/* Men Section */}
                       <div>
-                        <h5 className="text-lg font-semibold text-blue-600 mb-3 text-center">Men</h5>
+                        <p className="text-lg font-semibold text-blue-600 mb-3 text-center">Men</p>
                         <div className="space-y-2">
                           {section.content.Men.map((item, itemIndex) => (
                             <div key={itemIndex} className="flex justify-between items-center py-1">
@@ -343,9 +343,9 @@ export default function SalonMenuPage() {
                 {/* Other Services */}
                 {services.map((service, index) => (
                   <div key={index} className="space-y-4">
-                    <h4 className="text-2xl font-script text-center text-gray-700 border-b border-gray-300 pb-2" style={{ fontFamily: 'Dancing Script, cursive' }}>
+                    <p className="text-2xl font-script text-center text-gray-700 border-b border-gray-300 pb-2" style={{ fontFamily: 'Dancing Script, cursive' }}>
                       {service.category}
-                    </h4>
+                    </p>
                     <div className="space-y-2">
                       {service.items.map((item, itemIndex) => (
                         <div key={itemIndex} className="flex justify-between items-center py-1">

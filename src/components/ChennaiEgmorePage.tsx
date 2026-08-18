@@ -129,7 +129,7 @@ export default function ChennaiEgmorePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           {/* Introduction Section */}
           <motion.div className="text-center mb-16" {...fadeUp}>
-            <h1 className="text-3xl md:text-5xl font-bold text-[#8D7B68] mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-[#8D7B68] mb-6">
               Body Massage in Chennai Egmore - Your Oasis of Calm
             </h1>
             <motion.div
@@ -161,7 +161,7 @@ export default function ChennaiEgmorePage() {
               </motion.p>
 
               <motion.h2
-                className="text-2xl lg:text-3xl font-bold text-[#8D7B68] mb-4"
+                className="text-3xl lg:text-4xl font-bold text-[#8D7B68] mb-4"
                 {...fadeUp}
               >
                 Get the Supported Massage Treatment at Massage Centre in Chennai
@@ -261,12 +261,12 @@ export default function ChennaiEgmorePage() {
               transition={{ duration: 1 }}
               viewport={{ once: true }}
             >
-              <motion.h3
-                className="text-2xl lg:text-3xl font-bold text-[#8D7B68] mb-4"
+              <motion.h2
+                className="text-3xl lg:text-4xl font-bold text-[#8D7B68] mb-4"
                 {...fadeUp}
               >
                 Couples Wellness Retreat: Immerse in the Ultimate Massage Harmony
-              </motion.h3>
+              </motion.h2>
               <motion.p
                 className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-6"
                 initial={{ opacity: 0, y: 20 }}
@@ -350,7 +350,7 @@ export default function ChennaiEgmorePage() {
           {/* Services Section */}
           <div className="text-center mb-16">
             <motion.h4
-              className="text-3xl md:text-4xl font-bold text-[#8D7B68] mb-4"
+              className="text-xl md:text-2xl font-bold text-[#8D7B68] mb-4"
               {...fadeUp}
             >
               Experience Your Best Beauty Care Treatment at Our Top Beauty Salon In Egmore
@@ -408,7 +408,7 @@ export default function ChennaiEgmorePage() {
           </div>
 
            <section className="mb-20">
-            <div className="text-center mb-12"><motion.h4 className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-4" {...fadeUp}>Frequently Asked Questions</motion.h4></div>
+            <div className="text-center mb-12"><motion.h5 className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-4" {...fadeUp}>Frequently Asked Questions</motion.h5></div>
             <div className="max-w-4xl mx-auto px-4">
               <div className="space-y-6">
                 {faqs.map((faq, index) => (
@@ -535,7 +535,7 @@ export default function ChennaiEgmorePage() {
                 <FaUser className="w-8 h-8 text-white" />
               </div>
               <p className="text-[#3E3636]/80 italic mb-4">"{testimonials[currentIndex].feedback}"</p>
-              <h3 className="text-green-600 font-semibold">- {testimonials[currentIndex].name}</h3>
+              <p className="text-green-600 font-semibold">- {testimonials[currentIndex].name}</p>
             </motion.div>
 
             <button

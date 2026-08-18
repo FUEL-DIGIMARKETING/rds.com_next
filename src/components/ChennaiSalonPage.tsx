@@ -291,9 +291,9 @@ export default function ChennaiSalonPage() {
                 >
                   <service.icon className="text-white text-2xl" />
                 </div>
-                <h3 className="text-xl font-semibold text-[#8D7B68] group-hover:text-green-600 transition-colors duration-300 mb-4">
+                <p className="text-xl font-semibold text-[#8D7B68] group-hover:text-green-600 transition-colors duration-300 mb-4">
                   {service.title}
-                </h3>
+                </p>
                 <p className="text-[#3E3636]/90 text-sm leading-relaxed">
                   {service.description}
                 </p>

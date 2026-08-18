@@ -322,12 +322,12 @@ export default function TirupurPage() {
 
           {/* Services Section */}
           <div className="text-center mb-16">
-            <motion.h2
-              className="text-3xl md:text-4xl font-bold text-[#8D7B68] mb-4"
+            <motion.h3
+              className="text-2xl md:text-3xl font-bold text-[#8D7B68] mb-4"
               {...fadeUp}
             >
               Escape To A Haven Of Calm With Our Therapeutic Massages At Tirupur
-            </motion.h2>
+            </motion.h3>
             <motion.div
               className="w-20 h-1 bg-green-600 mx-auto rounded-full mb-4"
               initial={{ scaleX: 0 }}
@@ -403,12 +403,12 @@ export default function TirupurPage() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <motion.h3
-              className="text-3xl md:text-4xl font-bold text-[#8D7B68] mb-6"
+            <motion.h4
+              className="text-xl md:text-2xl font-bold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Step Into A World Of Relaxation With Our Professional Massage In Tirupur
-            </motion.h3>
+            </motion.h4>
             <motion.p
               className="text-[#3E3636]/90 text-base leading-relaxed mb-8 max-w-4xl mx-auto text-justify"
               initial={{ opacity: 0, y: 20 }}
@@ -421,7 +421,7 @@ export default function TirupurPage() {
           </motion.section>
 
           <section className="mb-20">
-            <div className="text-center mb-12"><motion.h4 className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-4" {...fadeUp}>Frequently Asked Questions</motion.h4></div>
+            <div className="text-center mb-12"><motion.h5 className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-4" {...fadeUp}>Frequently Asked Questions</motion.h5></div>
             <div className="max-w-4xl mx-auto px-4">
               <div className="space-y-6">
                 {faqs.map((faq, index) => (

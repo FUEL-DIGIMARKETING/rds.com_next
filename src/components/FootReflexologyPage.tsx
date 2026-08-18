@@ -50,7 +50,7 @@ const FootReflexologyPage = () => {
     },
     {
       title: "Support Detoxification",
-      description: "To encourage the body detox process, Foot Reflexology massage uses detoxification by targeting specific points. Higher lymphatic flow removes pollutants, and improved blood circulation helps the body get rid of toxins.. Your body and mind are in better overall condition after this massage.",
+      description: "To encourage the body detox process, Foot Reflexology massage uses detoxification by targeting specific points. Higher lymphatic flow removes pollutants, and improved blood circulation helps the body get rid of toxins. Your body and mind are in better overall condition after this massage.",
       icon: Droplets
     }
   ]
@@ -328,12 +328,12 @@ const FootReflexologyPage = () => {
 
           {/* Benefits Section with Foot Zone Mapping */}
           <div className="text-center mb-12">
-            <motion.h2
-              className="text-xl md:text-3xl font-bold text-[#8D7B68] mb-6"
+            <motion.h3
+              className="text-2xl md:text-3xl font-bold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               The Remarkable Benefits of Foot Reflexology Massage
-            </motion.h2>
+            </motion.h3>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -376,12 +376,12 @@ const FootReflexologyPage = () => {
 
           {/* Why Choose Us with Reflexology Theme */}
           <div className="text-center mb-12">
-            <motion.h2
+            <motion.p
               className="text-2xl lg:text-3xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Why Choose River Salon and Day Spa?
-            </motion.h2>
+            </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -409,12 +409,12 @@ const FootReflexologyPage = () => {
 
           {/* FAQ Section */}
           <div className="text-center mb-12">
-            <motion.h3
-              className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-6"
+            <motion.h4
+              className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Frequently Asked Questions
-            </motion.h3>
+            </motion.h4>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -506,12 +506,12 @@ const FootReflexologyPage = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           >
-            <motion.h4
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+            <motion.h5
+              className="text-xl md:text-2xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Foot Reflexology Massage for Ultimate Revitalize of Your Feet
-            </motion.h4>
+            </motion.h5>
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8"
               initial={{ scaleX: 0 }}

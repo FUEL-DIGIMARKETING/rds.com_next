@@ -29,12 +29,12 @@ const ThaiBodyMassagePage = () => {
     },
     {
       title: "Deep Muscle Relief",
-      description: "Using specific pressure and techniques, This massage gives you long-lasting comfort, and enhances the overall function of muscles and relaxation by increasing blood flow. You can experience a better sense of relief through consistent massages.",
+      description: "Using specific pressure and techniques, Thai body massage targets deep tissues and knots of muscle, which gently reduces chronic pain and decreases muscle stiffness. This massage gives you long-lasting comfort, and enhances the overall function of muscles and relaxation by increasing blood flow. You can experience a better sense of relief through consistent massages.",
       icon: "💪"
     },
     {
       title: "Improved Circulation",
-      description: "By stimulating blood flow, Thai massage improves circulation, facilitating the delivery of oxygen and essential nutrients to tissues. This massage helps not only from physical exertion but also enhances the sense of relaxation and energy levels of your body.",
+      description: "By stimulating blood flow, Thai massage improves circulation, facilitating the delivery of oxygen and essential nutrients to tissues. This boost in nutrient supply accelerates tissue repair, reduces inflammation, and enhances overall vitality. This massage helps not only from physical exertion but also enhances the sense of relaxation and energy levels of your body. ",
       icon: "💓"
     },
     {
@@ -44,12 +44,12 @@ const ThaiBodyMassagePage = () => {
     },
     {
       title: "Detoxification",
-      description: "Thai body massage targets the lymphatic system of our body by stimulating the flow of lymphatic fluids, which helps in the removal of toxins. This enhanced detoxification process supports the immune system, improves overall health and recover from illnesses.",
+      description: "Thai body massage targets the lymphatic system of our body by stimulating the flow of lymphatic fluids, which helps in the removal of toxins. This enhanced detoxification process supports the immune system, improves overall health, and boosts the body’s natural ability to combat infections and recover from illnesses.",
       icon: "🌿"
     },
     {
       title: "Mental Clarity",
-      description: "The holistic approach of Thai massage integrates physical, mental, and emotional healing, promoting overall well-being. It's help you get better mental clarity, increased focus, and a relaxed mindset, than before receiving massages.",
+      description: "The holistic approach of Thai massage integrates physical, mental, and emotional healing, promoting overall well-being. It energizes the body by reducing stress and tension, and by clearing the unstableness of both mental and physical state. The massages help you get better mental clarity, increased focus, and a relaxed mindset, than before receiving massages.",
       icon: "🧠"
     }
   ]
@@ -215,7 +215,7 @@ const ThaiBodyMassagePage = () => {
           {/* Benefits Section */}
           <div className="text-center mb-12">
             <motion.h3
-              className="text-2xl md:text-4xl font-extrabold text-[#8D7B68] mb-4"
+              className="text-2xl md:text-3xl font-extrabold text-[#8D7B68] mb-4"
               {...fadeUp}
             >
               The Healing Power of Thai Body Massage: Unlock the Benefits
@@ -245,12 +245,12 @@ const ThaiBodyMassagePage = () => {
 
           {/* Why Choose Us Section */}
           <div className="text-center mb-12">
-            <motion.h2
+            <motion.p
               className="text-2xl lg:text-3xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Why Choose River Salon and Day Spa?
-            </motion.h2>
+            </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -278,12 +278,12 @@ const ThaiBodyMassagePage = () => {
 
           {/* FAQ Section */}
           <div className="text-center mb-12">
-            <motion.h3
-              className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-6"
+            <motion.h4
+              className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Frequently Asked Questions
-            </motion.h3>
+            </motion.h4>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -345,12 +345,12 @@ const ThaiBodyMassagePage = () => {
               boxShadow: '0 25px 45px rgba(0, 0, 0, 0.2)'
             }}
           >
-            <motion.h4
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+            <motion.h5
+              className="text-xl md:text-2xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               The Discomfort of Using Oil on Your Skin for Massage
-            </motion.h4>
+            </motion.h5>
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8"
               initial={{ scaleX: 0 }}

@@ -39,7 +39,7 @@ const SwedishMassagePage = () => {
     },
     {
       title: "Improved Sleep",
-      description: "Swedish massage gives you relaxation, improves the overall well-being of your health, and increases the quality of sleep. Its relaxing effects reduce stress hormones, relax muscles, and boost serotonin release all of which contribute to a peaceful state of mind for restful sleep.",
+      description: "Swedish massage gives you relaxation, improves the overall well-being of your health, and increases the quality of sleep. Its relaxing effects reduce stress hormones, relax muscles, and boost serotonin release all of which contribute to a peaceful state of mind for restful sleep. Learn energizing benefits that stretch beyond relaxation, promoting a more balanced, healthful way of life.",
       icon: "🛏️"
     },
     {
@@ -65,20 +65,20 @@ const SwedishMassagePage = () => {
 
   const faqs = [
     {
-      question: "Can I Choose the minutes for my massage session?",
-      answer: "Swedish massage package you can pick services from 60 or 90 mins. Additionally, we have a membership card here, you can choose the minutes of massage according to the membership time period."
-    },
-    {
-      question: "Does Swedish massage involve the use of oil?",
-      answer: "Yes, oil is used to reduce skin friction and to promote fluid."
+      question: "Why would people get a Swedish massage?",
+      answer: "While having a Swedish massage, the muscle tension is released, and it makes you feel a positive person in you."
     },
     {
       question: "To whom is Swedish massage of greatest benefit?",
       answer: "Swedish massages would be the greatest beneficial for people, who are all looking to reduce stress and overall body relaxation."
     },
     {
-      question: "Why would people get a Swedish massage?",
-      answer: "While having a Swedish massage, the muscle tension is released, and it makes you feel a positive person in you."
+      question: "Can I Choose the minutes for my massage session?",
+      answer: "Swedish massage package you can pick services from 60 or 90 mins. Additionally, we have a membership card here, you can choose the minutes of massage according to the membership time period."
+    },
+    {
+      question: "Does Swedish massage involve the use of oil?",
+      answer: "Yes, oil is used to reduce skin friction and to promote fluid."
     }
   ]
 
@@ -173,7 +173,7 @@ const SwedishMassagePage = () => {
                   transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  At River Salon and Day Spa, we provide Swedish massages that revive the body, calm the mind, and restore a sense of calm. Discover our peaceful resort, where trained therapists create one-of-a-kind experiences using classic techniques from this valued past.
+                  At <strong>River Salon and Day Spa</strong>, we provide Swedish massages that revive the body, calm the mind, and restore a sense of calm. Discover our peaceful resort, where trained therapists create one-of-a-kind experiences using classic techniques from this valued past.
                 </motion.p>
               </motion.div>
 
@@ -196,7 +196,7 @@ const SwedishMassagePage = () => {
                   transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
                   viewport={{ once: true }}
                 >
-                  Swedish massage offers the best relaxation and energy, with peaceful and mild massages. Our <Link href="/best-body-massage-center" className="text-green-600 font-semibold hover:text-green-500 transition-colors">Best Spa in Chennai</Link> gives you a relaxed massage which helps you to feel better than before. Our trained therapists provide massages with soft strokes in a relaxing atmosphere to improve your mind, body, and spirit.
+                  Swedish massage offers the best relaxation and energy, with peaceful and mild massages. Our <Link href="/" className="text-green-600 font-semibold hover:text-green-500 transition-colors">Best Spa in Chennai</Link> gives you a relaxed massage which helps you to feel better than before. Our trained therapists provide massages with soft strokes in a relaxing atmosphere to improve your mind, body, and spirit.
                 </motion.p>
               </motion.div>
             </motion.div>
@@ -249,10 +249,10 @@ const SwedishMassagePage = () => {
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded-2xl"></div>
             <div className="relative max-w-3xl mx-auto text-white">
               <h2 className="text-2xl font-bold mb-4">
-                Best Swedish Massage Packages - River Salon and Day Spa
+                Swedish Massage Center - River Salon and Day Spa
               </h2>
               <p className="mb-6 text-base">
-                River Salon and Day Spa’s professionally trained therapists ensure that you are completely relaxed after your massage. Our serene set is perfect for invigorating the body and spirit. After visiting our reputed<Link href="/best-body-massage-center" className="text-green-400 font-semibold hover:underline"> spa in chennai</Link> ,you obtain the best experience and a profound sense of happiness and well-being. De-stress your body and soul by Booking an appointment at River Salon and Day Spa today!
+                River Salon and Day Spa’s professionally trained therapists ensure that you are completely relaxed after your massage. Our serene set is perfect for invigorating the body and spirit. After visiting our reputed <Link href="/" className="text-green-400 font-semibold hover:underline"> spa in chennai</Link> ,you obtain the best experience and a profound sense of happiness and well-being. De-stress your body and soul by <strong>Booking an appointment</strong> at <strong>River Salon and Day Spa</strong> today!
               </p>
               <Link href="/book-spa-service-appointment">
                 <motion.button
@@ -268,12 +268,12 @@ const SwedishMassagePage = () => {
 
           {/* Benefits Section with Enhanced Cards */}
           <div className="text-center mb-12">
-            <motion.h2
-              className="text-2xl md:text-4xl font-extrabold text-[#8D7B68] mb-4"
+            <motion.h3
+              className="text-2xl md:text-3xl font-extrabold text-[#8D7B68] mb-4"
               {...fadeUp}
             >
               Learn About the Stress-Reduction and Rejuvenating Properties of Swedish Massage
-            </motion.h2>
+            </motion.h3>
             <motion.p
               className="text-base lg:text-lg text-[#3E3636]/80 max-w-4xl mx-auto mb-6"
               initial={{ opacity: 0, y: 20 }}
@@ -284,12 +284,12 @@ const SwedishMassagePage = () => {
               <Link href="/best-body-massage-center" className="text-green-600 font-semibold hover:underline">Swedish massage</Link> is well-known for its ability to provide deep relaxation and reduce both physical and emotional stress. It promotes relaxation, increases circulation, and reduces muscle soreness with long, peaceful strokes and varying pressures. This massage process promotes your actual health and makes you feel better both physically and mentally.
             </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
-            <motion.h2
+            <motion.h3
               className="text-2xl md:text-3xl font-extrabold text-[#8D7B68] mb-8"
               {...fadeUp}
             >
               Perks of Swedish Massage:
-            </motion.h2>
+            </motion.h3>
           </div>
 
           {/* Enhanced Benefits Grid */}
@@ -332,12 +332,12 @@ const SwedishMassagePage = () => {
 
           {/* Why Choose Us with Floating Animation */}
           <div className="text-center mb-12">
-            <motion.h2
-              className="text-2xl lg:text-3xl font-extrabold text-[#8D7B68] mb-6"
+            <motion.p
+              className="text-xl lg:text-2xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Why Choose River Salon and Day Spa?
-            </motion.h2>
+            </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -365,12 +365,12 @@ const SwedishMassagePage = () => {
 
           {/* FAQ Section */}
           <div className="text-center mb-12">
-            <motion.h3
-              className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-6"
+            <motion.h4
+              className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Frequently Asked Questions
-            </motion.h3>
+            </motion.h4>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -451,12 +451,12 @@ const SwedishMassagePage = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           >
-            <motion.h4
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+            <motion.h5
+              className="text-xl md:text-2xl lg:text-3xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Nurture the ultimate Swedish massage experience
-            </motion.h4>
+            </motion.h5>
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8"
               initial={{ scaleX: 0 }}

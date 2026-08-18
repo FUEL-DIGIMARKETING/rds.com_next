@@ -216,13 +216,13 @@ const HeadToToeAromaMassagePage = () => {
       <section className="py-16 bg-gradient-to-br from-[#F8F5F0] to-[#EAE0D5] text-[#3E3636] w-full select-text">
         <div className="max-w-7xl mx-auto px-4 select-text">
           <div className="text-center mb-16">
-            <motion.h2
-              className="text-4xl lg:text-5xl font-bold text-[#8D7B68] mb-6 select-text"
+            <motion.h3
+              className="text-3xl lg:text-4xl font-bold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
 
               Discover the Top Benefits of Head-to-Toe Aroma Massage: Total Bliss
-            </motion.h2>
+            </motion.h3>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-6" />
           </div>
 
@@ -269,12 +269,12 @@ const HeadToToeAromaMassagePage = () => {
       <section className="py-16 bg-[#F8F5F0] text-[#3E3636] w-full select-text">
         <div className="max-w-7xl mx-auto px-4 select-text">
           <div className="text-center mb-16">
-            <motion.h2
+            <motion.p
               className="text-4xl lg:text-5xl font-bold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Why Choose River Salon and Day Spa?
-            </motion.h2>
+            </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full" />
           </div>
 
@@ -304,12 +304,12 @@ const HeadToToeAromaMassagePage = () => {
       {/* FAQ Section */}
       <section className="py-16 bg-[#F8F5F0]">
         <div className="text-center mb-12">
-          <motion.h3
+          <motion.h4
             className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-4"
             {...fadeUp}
           >
             Frequently Asked Questions
-          </motion.h3>
+          </motion.h4>
         </div>
         <div className="max-w-4xl mx-auto px-4">
           <div className="space-y-6">
@@ -367,12 +367,12 @@ const HeadToToeAromaMassagePage = () => {
               boxShadow: '0 25px 45px rgba(0, 0, 0, 0.2)'
             }}
           >
-            <motion.h4
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+            <motion.h5
+              className="text-xl md:text-2xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Indulge in Spa Bliss with Expert Aromatherapy Techniques
-            </motion.h4>
+            </motion.h5>
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8"
               initial={{ scaleX: 0 }}

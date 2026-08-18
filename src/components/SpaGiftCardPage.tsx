@@ -167,6 +167,23 @@ export default function SpaGiftCardPage() {
       return
     }
 
+    // Load Razorpay script FIRST before any async API calls
+    if (!(window as any).Razorpay) {
+      try {
+        await new Promise<void>((resolve, reject) => {
+          const script = document.createElement('script')
+          script.src = 'https://checkout.razorpay.com/v1/checkout.js'
+          script.onload = () => resolve()
+          script.onerror = () => reject(new Error('Failed to load Razorpay script'))
+          document.head.appendChild(script)
+        })
+      } catch {
+        setSubmitStatus({ success: false, message: 'Failed to load payment gateway. Please check your connection and try again.' })
+        setIsSubmitting(false)
+        return
+      }
+    }
+
     try {
       // Step 1: Send email notification
       const emailRes = await fetch(`${API_BASE}/send-email`, {
@@ -236,7 +253,7 @@ export default function SpaGiftCardPage() {
         return
       }
 
-      // Step 4: Open Razorpay popup
+      // Step 4: Open Razorpay checkout
       const options = {
         key: paymentData.key_id,
         amount: paymentData.amount,
@@ -282,11 +299,16 @@ export default function SpaGiftCardPage() {
       }
 
       const rzp = new (window as any).Razorpay(options)
+      rzp.on('payment.failed', (response: any) => {
+        console.error('Razorpay payment failed:', response.error)
+        setSubmitStatus({ success: false, message: `Payment failed: ${response.error?.description || 'Please try again.'}` })
+        setIsSubmitting(false)
+      })
       rzp.open()
 
-    } catch (error) {
+    } catch (error: any) {
       console.error('Gift card submit error:', error)
-      setSubmitStatus({ success: false, message: 'Network error. Please check your connection and try again.' })
+      setSubmitStatus({ success: false, message: `Error: ${error?.message || 'Network error. Please check your connection and try again.'}` })
       setIsSubmitting(false)
     }
   }

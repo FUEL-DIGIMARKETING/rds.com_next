@@ -315,12 +315,12 @@ export default function VelloreTollgatePage() {
             transition={{ duration: 1, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <motion.h2
+            <motion.h3
               className="text-2xl lg:text-3xl font-bold text-[#8D7B68] mb-4"
               {...fadeUp}
             >
               Beauty Salon in Vellore for Your Excellence Look
-            </motion.h2>
+            </motion.h3>
             <motion.p
               className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-6"
               initial={{ opacity: 0, y: 20 }}
@@ -344,12 +344,12 @@ export default function VelloreTollgatePage() {
 
         {/* Body Scrub Section */}
         <div className="text-center mb-16">
-          <motion.h3
+          <motion.h4
             className="text-3xl md:text-4xl font-bold text-[#8D7B68] mb-4"
             {...fadeUp}
           >
             Body Scrub Massages Revitalize Your Skin
-          </motion.h3>
+          </motion.h4>
           <div className="w-32 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           <motion.p
             className="text-[#3E3636]/90 text-lg leading-relaxed max-w-4xl mx-auto mb-6"
@@ -387,12 +387,12 @@ export default function VelloreTollgatePage() {
             }}
           >
             <div className="max-w-4xl mx-auto">
-              <motion.h3
+              <motion.h5
                 className="text-3xl font-bold text-[#8D7B68] mb-6"
                 {...fadeUp}
               >
                 Body Wrap Massages With A Symphony of Relaxation and Rejuvenation
-              </motion.h3>
+              </motion.h5>
               <motion.p
                 className="text-[#3E3636]/90 text-base leading-relaxed mb-8"
                 initial={{ opacity: 0, y: 20 }}

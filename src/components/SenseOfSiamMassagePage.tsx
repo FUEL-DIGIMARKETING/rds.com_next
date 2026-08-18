@@ -194,7 +194,7 @@ const SenseOfSiamMassagePage = () => {
             <div className="absolute inset-0 bg-black bg-opacity-70 rounded-2xl"></div>
             <div className="relative max-w-3xl mx-auto text-white">
               <h2 className="text-2xl font-bold mb-4">
-                Sense of Siam Massage Service - River Salon and Day Spa
+                Best Sense of Siam Massage - River Salon and Day Spa
               </h2>
               <p className="mb-6 text-base">
                 Sense of Siam massage works wonders for fighting stress, anxiety, and tension in an overstretched life. Workaholic people generally have too much stress to handle, which comes out in the form of various ailments like colds, migraines, and headaches. The muscles in the neck will tighten themselves up with painful knots, and the nerves may be strung tight with anxiety all the time. Turmeric and Lemon have cleansing and anti-inflammatory properties to help with these problems. These herbs help in reducing skin inflammation and easing cramps and tension. At River Salon and Day Spa, our essential oils also incorporate the healing properties of these herbs in an effort to provide health concerns for our clients. So Book your Appointment immediately, to experience these healing properties of herbs.
@@ -218,7 +218,7 @@ const SenseOfSiamMassagePage = () => {
         <div className="max-w-7xl mx-auto px-4 select-text">
           <div className="text-center mb-16">
             <motion.h3
-              className="text-4xl lg:text-5xl font-bold text-[#8D7B68] mb-6 select-text"
+              className="text-3xl lg:text-4xl font-bold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
 
@@ -270,12 +270,12 @@ const SenseOfSiamMassagePage = () => {
       <section className="py-16 bg-[#F8F5F0] text-[#3E3636] w-full select-text">
         <div className="max-w-7xl mx-auto px-4 select-text">
           <div className="text-center mb-16">
-            <motion.h3
+            <motion.p
               className="text-4xl lg:text-5xl font-bold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Why Choose River Salon and Day Spa?
-            </motion.h3>
+            </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full" />
           </div>
 
@@ -305,12 +305,12 @@ const SenseOfSiamMassagePage = () => {
       {/* FAQ Section */}
       <section className="py-16 bg-[#F8F5F0]">
         <div className="text-center mb-12">
-          <motion.h3
+          <motion.h4
             className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-4"
             {...fadeUp}
           >
             Frequently Asked Questions
-          </motion.h3>
+          </motion.h4>
         </div>
         <div className="max-w-4xl mx-auto px-4">
           <div className="space-y-6">
@@ -368,7 +368,7 @@ const SenseOfSiamMassagePage = () => {
             }}
           >
             <motion.h5
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+              className="text-xl md:text-2xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Reclaim Your Zen: Unmatched Relaxation and Renewal Awaits

@@ -375,12 +375,12 @@ export default function CoffeeWrapPage() {
 
         {/* Why Choose Us Section */}
         <div className="text-center mb-12">
-          <motion.h4
+          <motion.p
             className="text-3xl lg:text-4xl font-bold text-[#8D7B68] mb-6"
             {...fadeUp}
           >
             Why Choose River Salon and Day Spa?
-          </motion.h4>
+          </motion.p>
           <motion.div
             className="w-20 h-1 bg-green-600 mx-auto rounded-full mb-4"
             initial={{ scaleX: 0 }}
@@ -495,7 +495,7 @@ export default function CoffeeWrapPage() {
             }}
           >
             <motion.h5
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-white mb-6 select-text"
+              className="text-xl md:text-2xl lg:text-3xl text-center font-extrabold text-white mb-6 select-text"
               {...fadeUp}
             >
               Awaken Your Glow: Experience the Ultimate Coffee Wrap Massage

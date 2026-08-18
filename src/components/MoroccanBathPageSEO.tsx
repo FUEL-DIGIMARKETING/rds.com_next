@@ -50,7 +50,7 @@ const MoroccanBathPageSEO = () => {
     },
     {
       title: "Detoxification",
-      description: "Our Moroccan bath services contain a detoxifying aspect that aids in removing impurities from your skin and body. It's the perfect option for complete cleansing and renewal because detoxification helps to foster a feeling of balance and freshness.",
+      description: "Our Moroccan bath services contain a detoxifying aspect that aids in removing impurities from your skin and body. A better complexion and enhanced general health result from this treatment, which revitalizes and cleanses your skin. It's the perfect option for complete cleansing and renewal because detoxification helps to foster a feeling of balance and freshness.",
       icon: "🌊"
     }
   ]
@@ -66,16 +66,24 @@ const MoroccanBathPageSEO = () => {
 
   const faqs = [
     {
-      question: "How frequently must I get a Moroccan bath?",
-      answer: "We advise taking a Moroccan bath every four to six weeks for best effects. Depending on your skin softness, stress, and relaxation, you may choose the sessions."
+      question: "What is the duration of a Moroccan Bath session?",
+      answer: "Our typical session lasts between 60 and 90 minutes, depending on the package you can select and book an appointment through our website."
     },
     {
-      question: "What is the duration of a Moroccan Bath session?",
-      answer: "Our typical session lasts between 60 and 90 minutes, depending on the package you select. You can also book an appointment through our website."
+      question: "Is Moroccan Bath appropriate for every kind of skin?",
+      answer: "Sure, our therapists may modify the treatment to accommodate different skin types and levels of sensitivity. If you have any skin issues, before the treatment process inform the therapist."
+    },
+    {
+      question: "How frequently must I get a Moroccan bath?",
+      answer: "We advise taking a Moroccan bath every four to six weeks for best effects. According to your skin softness, stress, and relaxation, you may choose the sessions."
     },
     {
       question: "What attire is appropriate for the procedure?",
       answer: "During the procedure, we offer you disposable underwear for your comfort and privacy."
+    },
+    {
+      question: "Can I use Moroccan Bath in addition to other spa treatments?",
+      answer: "Obviously! Many clients opt to enhance their Moroccan Bath with additional treatments for an indulgent full day. After taking a Moroccan bath, you can consult with a therapist to choose which massage treatment is best for your skin."
     }
   ]
 
@@ -146,7 +154,7 @@ const MoroccanBathPageSEO = () => {
                 className="text-xl lg:text-2xl font-bold text-[#8D7B68] mb-4"
                 {...fadeUp}
               >
-                What is a Moroccan Bath?
+                Experience the Ultimate Moroccan Bath at River Salon and Day Spa
               </motion.span>
               <motion.p
                 className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-6"
@@ -155,14 +163,14 @@ const MoroccanBathPageSEO = () => {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                At <Link href="/best-body-massage-center" className="text-green-600 font-semibold hover:text-green-500 transition-colors">River Salon and Day Spa,</Link> experience the age-old practice of purifying and revitalizing yourself with our genuine <strong>Moroccan Bath Massage.</strong> The age-old Middle Eastern custom is brought to Bangalore by our skilled therapists, who will provide you with an incredibly life-changing experience.
+                At <Link href="/" className="text-green-600 font-semibold hover:text-green-500 transition-colors">River Salon and Day Spa,</Link> experience the age-old practice of purifying and revitalizing yourself with our genuine <strong>Moroccan Bath Massage.</strong> The age-old Middle Eastern custom is brought to Bangalore by our skilled therapists, who will provide you with an incredibly life-changing experience.
               </motion.p>
 
               <motion.p
                 className="text-xl lg:text-2xl font-bold text-[#8D7B68] mb-4"
                 {...fadeUp}
               >
-                Exposing the Moroccan Bath Relaxation
+                Exposing the Moroccan Bath Relaxation 
               </motion.p>
               <motion.p
                 className="text-[#3E3636]/90 text-base text-justify leading-relaxed"
@@ -213,7 +221,7 @@ const MoroccanBathPageSEO = () => {
                 Best Moroccan Bath Packages - River Salon and Day Spa
               </h2>
               <p className="mb-6 text-base">
-                Our best-rated Moroccan bath services at River Salon and Day Spa will provide you with the utmost relaxation. With our luxurious packages designed to treat you from <Link href="/best-head-to-toe-aroma-massage-spa" className="text-green-400 font-semibold hover:underline">head to toe,</Link> revel in deep cleaning, exfoliation, and refreshment to lead your next day completely stress-free. Make an appointment right now to relax and rejuvenate in a calm setting.
+                Our best-rated Moroccan bath services at River Salon and Day Spa will provide you with the utmost relaxation. With our <Link href="/riverdayspa-packages-singles/" className="text-green-400 font-semibold hover:underline">luxurious packages </Link> designed to treat you from head to toe, revel in deep cleaning, exfoliation, and refreshment to lead your next day completely stress-free. Make an <strong>appointment right now </strong>to relax and rejuvenate in a calm setting.
               </p>
               <Link href="/book-spa-service-appointment">
                 <motion.button
@@ -229,12 +237,12 @@ const MoroccanBathPageSEO = () => {
 
           {/* Benefits Section */}
           <div className="text-center mb-12">
-            <motion.h2
-              className="text-2xl md:text-4xl font-extrabold text-[#8D7B68] mb-4"
+            <motion.h3
+              className="text-2xl md:text-3xl font-extrabold text-[#8D7B68] mb-4"
               {...fadeUp}
             >
               Benefits of Moroccan Bath Services
-            </motion.h2>
+            </motion.h3>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -260,12 +268,12 @@ const MoroccanBathPageSEO = () => {
 
           {/* Why Choose Us Section */}
           <div className="text-center mb-12">
-            <motion.h2
+            <motion.p
               className="text-2xl lg:text-3xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Why Choose River Salon and Day Spa?
-            </motion.h2>
+            </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -293,12 +301,12 @@ const MoroccanBathPageSEO = () => {
 
           {/* FAQ Section */}
           <div className="text-center mb-12">
-            <motion.h3
+            <motion.h4
               className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Frequently Asked Questions
-            </motion.h3>
+            </motion.h4>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -359,12 +367,12 @@ const MoroccanBathPageSEO = () => {
               boxShadow: '0 25px 45px rgba(0, 0, 0, 0.2)'
             }}
           >
-            <motion.h4
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+            <motion.h5
+              className="text-xl md:text-2xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Now Experience the Enchantment of a Moroccan Bath
-            </motion.h4>
+            </motion.h5>
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8"
               initial={{ scaleX: 0 }}
@@ -374,7 +382,7 @@ const MoroccanBathPageSEO = () => {
             />
 
             <p className="text-[#FFFFFF] text-base md:text-lg text-center leading-relaxed select-text max-w-4xl mb-8">
-              Make an appointment for a Moroccan Bath at <strong>River Salon and Day Spa</strong> to start your journey toward renewal and relaxation. Visit us at <Link href="/spa-in-bangalore" className="text-green-400 font-semibold hover:underline">Bangalore,</Link> <strong>Vellore, Chennai, Coimbatore, Trichy and Tirupur.</strong> to see the difference in care and quality. Our skilled therapists are prepared to take you to a realm of delightful refreshments.
+              Make an appointment for a Moroccan Bath at River Salon and Day Spa to start your journey toward renewal and relaxation. Visit us at <strong>Bangalore, Vellore, and Tirupur </strong>to see the difference in care and quality. Our skilled therapists are prepared to take you to a realm of delightful refreshments.
             </p>
 
             <motion.button

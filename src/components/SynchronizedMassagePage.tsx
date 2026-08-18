@@ -114,7 +114,7 @@ const SynchronizedMassagePage = () => {
               className="text-2xl lg:text-4xl font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
-              Best Synchronized Massage Spa - Two Hands, One Blissful Experience
+              Best Synchronized Massage Spa -  Two Hands, One Blissful Experience
             </motion.h1>
             <div className="w-20 h-1 bg-green-600 mx-auto rounded-full" />
           </div>
@@ -221,7 +221,7 @@ const SynchronizedMassagePage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <motion.h3
-              className="text-xl md:text-3xl font-bold text-[#8D7B68] mb-6"
+              className="text-2xl md:text-3xl font-bold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Double the Benefits: Discover the Perks of Synchronized Massages
@@ -269,12 +269,12 @@ const SynchronizedMassagePage = () => {
       {/* Why Choose Us Section */}
       <section className="py-16 bg-gradient-to-br from-[#F8F5F0] to-[#EAE0D5]">
         <div className="text-center mb-12">
-          <motion.h2
+          <motion.p
             className="text-2xl lg:text-3xl font-extrabold text-[#8D7B68] mb-4"
             {...fadeUp}
           >
             Why Choose River Salon and Day Spa?
-          </motion.h2>
+          </motion.p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6 px-6 max-w-7xl mx-auto">
           {whyChooseUs.map((item, index) => (
@@ -302,12 +302,12 @@ const SynchronizedMassagePage = () => {
       {/* FAQ Section */}
       <section className="py-16 bg-[#F8F5F0]">
         <div className="text-center mb-12">
-          <motion.h3
-            className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-4"
+          <motion.h4
+            className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-4"
             {...fadeUp}
           >
             Frequently Asked Questions
-          </motion.h3>
+          </motion.h4>
         </div>
         <div className="max-w-4xl mx-auto px-4">
           <div className="space-y-6">
@@ -366,12 +366,12 @@ const SynchronizedMassagePage = () => {
               boxShadow: '0 25px 45px rgba(0, 0, 0, 0.2)'
             }}
           >
-            <motion.h4
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+            <motion.h5
+              className="text-xl md:text-2xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Experience the Best Four Hand Massage
-            </motion.h4>
+            </motion.h5>
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8"
               initial={{ scaleX: 0 }}

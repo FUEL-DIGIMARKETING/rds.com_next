@@ -447,7 +447,7 @@ export default function MangoWrapPage() {
             }}
           >
             <motion.h5
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-white mb-6 select-text"
+              className="text-xl md:text-2xl lg:text-3xl text-center font-extrabold text-white mb-6 select-text"
               {...fadeUp}
             >
               Rejuvenate Your Senses with Luxurious Mango-Infused Spa Treatments

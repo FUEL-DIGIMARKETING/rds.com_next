@@ -268,12 +268,12 @@ export default function TirupurSalonPage() {
           We at River Salon and Day Spa utilise premium, skin-friendly, and safe products. Our goal is to make each visit unforgettable and leave you feeling rejuvenated and self-assured.    </motion.p>
         {/* Why Choose Us Section */}
         <div className="text-center mb-16">
-          <motion.h2
+          <motion.h3
             className="text-3xl md:text-4xl font-bold text-[#8D7B68] mb-4"
             {...fadeUp}
           >
             River Salon and Day Spa: Why Choose it?
-          </motion.h2>
+          </motion.h3>
           <div className="w-32 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           <motion.p
             className="text-[#3E3636]/90 text-lg leading-relaxed max-w-4xl mx-auto"
@@ -337,12 +337,12 @@ export default function TirupurSalonPage() {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            <motion.h2
+            <motion.h4
               className="text-2xl lg:text-3xl font-bold text-[#8D7B68] mb-4"
               {...fadeUp}
             >
               Hair Style Cutting for Men: Trendy Hairstyle Personalised for You
-            </motion.h2>
+            </motion.h4>
             <motion.p
               className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-4"
               initial={{ opacity: 0, y: 20 }}
@@ -353,7 +353,7 @@ export default function TirupurSalonPage() {
               Are you trying to find the <Link href="/best-hair-saloon-in-chennai" className="text-green-600 font-semibold hover:text-green-500 transition-colors">best spot in Tirupur to get a haircut?</Link> You don't need to search any further! River Salon and Day Spa are experts in Men's haircuts and stylish.Our skilled stylists are educated to recognise your preferences and provide looks that accentuate your face shape and personality.
             </motion.p>
             <motion.p
-              className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-4"
+              className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-2"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
@@ -362,7 +362,7 @@ export default function TirupurSalonPage() {
               We provide exclusive groom makeover packages to guarantee that you look your best on your special day. We give a complete grooming service suited to your needs, from trendy haircuts and beard care to skincare procedures.
             </motion.p>
             <motion.p
-              className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-4"
+              className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-2"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
@@ -417,7 +417,7 @@ export default function TirupurSalonPage() {
           </motion.div>
         </div>
         <motion.p
-          className="text-[#3E3636]/90 text-lg leading-relaxed max-w-4xl mx-auto mb-16"
+          className="text-[#3E3636]/90 text-lg leading-relaxed max-w-4xl mx-auto mb-4"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -478,12 +478,12 @@ export default function TirupurSalonPage() {
             transition={{ duration: 1, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <motion.h2
-              className="text-2xl lg:text-3xl font-bold text-[#8D7B68] mb-4"
+            <motion.h5
+              className="text-xl lg:text-2xl font-bold text-[#8D7B68] mb-4"
               {...fadeUp}
             >
               Best Hair Salon in Tirupur for Ladies: Your Go-To Source for Flawless Beauty and Bridal
-            </motion.h2>
+            </motion.h5>
             <motion.p
               className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-4"
               initial={{ opacity: 0, y: 20 }}
@@ -502,10 +502,7 @@ export default function TirupurSalonPage() {
             >
               Our wedding makeovers, in which we turn women into gorgeous queens for their special day, are the salon's speciality. From classic to modern styles, our bridal experts provide a customised experience that accentuates your inherent beauty.
             </motion.p>
-          </motion.div>
-        </div>
-
-        <motion.p
+            <motion.p
           className="text-[#3E3636]/90 text-base text-justify leading-relaxed mb-6"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -520,6 +517,8 @@ export default function TirupurSalonPage() {
           <li>Draping sarees and accessorising</li>
           <li>Skincare and haircare procedures before marriage</li>
         </ul>
+          </motion.div>
+        </div>
 
         {/* CTA Section */}
         <motion.section
@@ -544,7 +543,7 @@ export default function TirupurSalonPage() {
                 Check Us Out Now!
               </motion.p>
               <motion.p
-                className="text-[#3E3636]/90 text-base leading-relaxed mb-8"
+                className="text-[#3E3636]/90 text-base leading-relaxed mb-4"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
@@ -553,7 +552,7 @@ export default function TirupurSalonPage() {
                 River Salon and Day Spa believe everyone should feel and look their best while walking out after the salon services. Whether it's a bridal makeover, a luxurious salon day, or an ordinary haircut, our committed staff is here to make it happen.
               </motion.p>
               <motion.p
-                className="text-[#3E3636]/90 text-base text-justify leading-relaxed "
+                className="text-[#3E3636]/90 text-base leading-relaxed "
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}

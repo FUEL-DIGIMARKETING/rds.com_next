@@ -483,7 +483,7 @@ export default function ChocolateBodyWrapPage() {
             }}
           >
             <motion.h5
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-white mb-6 select-text"
+              className="text-xl md:text-2xl lg:text-3xl text-center font-extrabold text-white mb-6 select-text"
               {...fadeUp}
             >
               Indulge in Pure Bliss: Experience the Ultimate Chocolate Body Wrap at Our Choco-Glow Retreat

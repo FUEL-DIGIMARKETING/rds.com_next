@@ -24,7 +24,7 @@ const BalineseMassagePage = () => {
   const services = [
     {
       title: "Soothes Aches and Tension",
-      description: "Relief from muscle tension and discomfort through Balinese massage. The treatments involve gentle stretches and calming oils. The Massage will give you complete relaxation from both physical pain and mental stress, which keeps you feeling refreshed",
+      description: "Relief from muscle tension and discomfort through Balinese massage. The treatments involve gentle stretches and calming oils. The Massage will give you complete relaxation from both physical pain and mental stress, which keeps you feeling refreshed.",
       icon: "🙌"
     },
     {
@@ -34,7 +34,7 @@ const BalineseMassagePage = () => {
     },
     {
       title: "Enhances Flexibility",
-      description: "It involves gentle stretches offering to unwind tight muscles and joints. These approaches improve general flexibility, reduce stiffness, and increase range of motion, all of which contribute to better physical comfort and well-being.",
+      description: "It involves gentle stretches to unwind tight muscles and joints. These approaches improve general flexibility, reduce stiffness, and increase range of motion, all of which contribute to better physical comfort and well-being.",
       icon: "🕊️"
     },
     {
@@ -51,11 +51,16 @@ const BalineseMassagePage = () => {
       title: "Supports Well-being",
       description: "By using calming techniques, Balinese massage evolves overall well-being, quiets the mind, and alleviates tension. Each massage session promotes a balance of wellness and makes you feel refreshed.",
       icon: "🌿"
-    }
+    },
+    {
+      title: "Strengthens Immunity",
+      description: "Balinese massage improves immunity by activating the lymphatic system and removing toxins. The process boosts immunity, reducing your vulnerability to disease and improving your general health. Frequent massages help to build a more robust and resilient immune system.",
+      icon: "🕊️"
+    },
   ]
 
   const whyChooseUs = [
-    { icon: Users, title: "Staff Expertise in Relaxation" },
+    { icon: Users, title: "Expertise in Relaxation" },
     { icon: Building, title: "Luxurious Ambiance" },
     { icon: Leaf, title: "Quality Products" },
     { icon: Handshake, title: "Exceptional Service" },
@@ -66,7 +71,7 @@ const BalineseMassagePage = () => {
   const faqs = [
     {
       question: "What is special about Balinese Massage?",
-      answer: "Balinese Massage is generally suitable for everyone. But if you have any medical concerns or conditions consult with your doctor before the massage session.Mild stretching, acupressure, and aromatherapy which promote relaxation, and release muscle tension are special about Balinese massage."
+      answer: "Mild stretching, acupressure, and aromatherapy which promote relaxation, and release muscle tension are special about Balinese massage."
     },
     {
       question: "Is Balinese massage suitable for everyone?",
@@ -74,7 +79,7 @@ const BalineseMassagePage = () => {
     },
     {
       question: "How often should I get a Balinese massage?",
-      answer: "Getting a Balinese massage once a month is ideal for relaxation and muscle tension relief, but personally according to your choice"
+      answer: "Getting a Balinese massage once a month is ideal for relaxation and muscle tension relief, but personally according to your choice."
     },
     {
       question: "Does Balinese Massage include a head?",
@@ -210,7 +215,7 @@ const BalineseMassagePage = () => {
                   transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  At River Salon and Day Spa, the <Link href="/best-body-massage-center" className="text-green-600 font-semibold hover:text-green-500 transition-colors">best spa in Chennai</Link>, you may experience the healing effects of Balinese massage. Our expert therapists integrate centuries-old practices with modern calming-down approaches to provide an amazing experience. The aromatic essential oils and relaxing music will take you to the tropical Paradise of Bali.
+                  At <strong>River Salon and Day Spa</strong>, the <Link href="/best-body-massage-center" className="text-green-600 font-semibold hover:text-green-500 transition-colors">best spa in Chennai</Link>, you may experience the healing effects of Balinese massage. Our expert therapists integrate centuries-old practices with modern calming-down approaches to provide an amazing experience. The aromatic essential oils and relaxing music will take you to the tropical Paradise of Bali.
                 </motion.p>
               </motion.div>
 
@@ -243,7 +248,7 @@ const BalineseMassagePage = () => {
                   transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
                   viewport={{ once: true }}
                 >
-                  Bali, Indonesia, is the place where the Traditional Balinese massage progressed which incorporates the <Link href="/best-ayurvedic-massage-spa" className="text-green-600 font-semibold hover:underline">Ayurvedic,</Link> Chinese, and Indonesian practices. Our professional therapists in Chennai will bring you to this island oasis using expert relaxation techniques. Balinese foot massages relieve the mind and body while targeting stress zones to promote self-healing.Visit Chennai's top spa for unrivaled Balinese massage services.
+                  Bali, Indonesia, is the place where the Traditional Balinese massage progressed which incorporates the <Link href="/best-ayurvedic-massage-spa" className="text-green-600 font-semibold hover:underline">Ayurvedic,</Link> Chinese, and Indonesian practices. Our professional therapists in Chennai will bring you to this island oasis using expert relaxation techniques. Balinese foot massages relieve the mind and body while targeting stress zones to promote self-healing. Visit Chennai's top spa services for unrivaled Balinese massage.
                 </motion.p>
               </motion.div>
             </motion.div>
@@ -301,7 +306,7 @@ const BalineseMassagePage = () => {
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded-2xl"></div>
             <div className="relative max-w-3xl mx-auto text-white">
               <h2 className="text-2xl font-bold mb-4">
-                Best Balinese Massage Packages - River Salon and Day Spa
+                Best Balinese Massage - River Salon and Day Spa
               </h2>
               <p className="mb-6 text-base">
                 Get relaxed muscle tension,<Link href="/best-body-massage-center" className="text-green-400 font-semibold hover:underline"> Balinese massage at River Salon and Day Spa </Link> will be an excellent spa treatment that uses different types of hand techniques and mild stretching. This stimulates oxygen flow, flexibility, and relaxation, ultimately relieving back pain. Another important method is a percussion instrument which uses rhythmic beating to stimulate the skin's surface. The therapeutic use of essential oils greatly enhances the experience, promoting peaceful post-session relaxation.
@@ -324,7 +329,7 @@ const BalineseMassagePage = () => {
               className="text-xl md:text-3xl font-bold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
-              Unlock Your Wellness Potential: Benefits of Balinese Massage
+              Benefits of Balinese Massage: Unlock Your Wellness Potential
             </motion.h3>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
@@ -368,12 +373,12 @@ const BalineseMassagePage = () => {
 
           {/* Why Choose Us with Spinning Elements */}
           <div className="text-center mb-12">
-            <motion.h2
+            <motion.p
               className="text-2xl lg:text-3xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Why Choose River Salon and Day Spa?
-            </motion.h2>
+            </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -401,12 +406,12 @@ const BalineseMassagePage = () => {
 
           {/* FAQ Section */}
           <div className="text-center mb-12">
-            <motion.h3
-              className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-6"
+            <motion.h4
+              className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-6"
               {...fadeUp}
             >
               Frequently Asked Questions
-            </motion.h3>
+            </motion.h4>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-8" />
           </div>
 
@@ -489,12 +494,12 @@ const BalineseMassagePage = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           >
-            <motion.h4
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+            <motion.h5
+              className="text-xl md:text-2xl lg:text-3xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Experiencing the relaxing Balinese Massage
-            </motion.h4>
+            </motion.h5>
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8"
               initial={{ scaleX: 0 }}
@@ -504,7 +509,7 @@ const BalineseMassagePage = () => {
             />
 
             <p className="text-[#FFFFFF] text-base md:text-lg text-center leading-relaxed select-text max-w-4xl mb-8">
-              To enjoy the relaxing experience of Balinese massage, make an immediate appointment at <strong>River Salon and Day Spa</strong> <span className="text-white font-bold">Vellore, Trichy, Chennai, Coimbatore,</span> and <Link href="/massage-spa-in-tirupur" className="text-green-400 font-semibold hover:underline">Tirupur.</Link> Our professional therapist will take you to the relaxation state through their calming techniques and aromatic oils. Our quiet environment will give you pure relaxation and bliss.
+              To enjoy the relaxing experience of Balinese massage, make an immediate appointment at <strong>River Salon and Day Spa</strong> <span className="text-white font-bold">in Bangalore, Vellore, Trichy, Chennai, Coimbatore,</span> and <Link href="/massage-spa-in-tirupur" className="text-green-400 font-semibold hover:underline">Tirupur.</Link> Our professional therapist will take you to the relaxation state through their calming techniques and aromatic oils. Our quiet environment will give you pure relaxation and bliss.
             </p>
 
             <motion.button

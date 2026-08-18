@@ -115,7 +115,7 @@ const AyurvedicMassagePage = () => {
         <div className="max-w-7xl mx-auto px-4 select-text">
           <div className="text-center mb-16">
             <motion.h3
-              className="text-4xl lg:text-5xl font-bold text-[#8D7B68] mb-6 select-text"
+              className="text-3xl lg:text-4xl font-bold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Top Benefits of Ayurvedic Massage: Unlock the Secrets
@@ -188,9 +188,9 @@ const AyurvedicMassagePage = () => {
                 <div className="w-16 h-16 bg-[#D2B48C] rounded-full flex items-center justify-center shadow-md">
                   <item.icon className="text-green-600 w-8 h-8" />
                 </div>
-                <h3 className="text-lg font-semibold text-[#8D7B68] group-hover:text-green-600 transition-colors duration-300">
+                <p className="text-lg font-semibold text-[#8D7B68] group-hover:text-green-600 transition-colors duration-300">
                   {item.title}
-                </h3>
+                </p>
               </motion.div>
             ))}
           </div>
@@ -215,7 +215,7 @@ const AyurvedicMassagePage = () => {
         <div className="absolute inset-0 bg-black/80" />
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-8 lg:px-16">
           <div className="flex flex-col items-center justify-center p-8 md:p-12 rounded-3xl select-text" style={{ background: 'linear-gradient(135deg, rgba(178, 178, 178, 0.26) 0%, rgba(174, 174, 174, 0.25) 100%)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)', border: '1px solid rgba(255, 255, 255, 0.3)', boxShadow: '0 25px 45px rgba(0, 0, 0, 0.2)' }}>
-            <motion.h5 className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text" {...fadeUp}>Experience Timeless Wellness with Expert Ayurvedic Treatments</motion.h5>
+            <motion.h5 className="text-xl md:text-2xl lg:text-3xl text-center font-extrabold text-[#8D7B68] mb-6 select-text" {...fadeUp}>Experience Timeless Wellness with Expert Ayurvedic Treatments</motion.h5>
             <motion.div className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8" initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} transition={{ duration: 0.8, delay: 0.3 }} viewport={{ once: true }} />
             <p className="text-[#FFFFFF] text-base md:text-lg text-center leading-relaxed select-text max-w-4xl mb-8">Our treatments at <strong>River Salon and Day Spa in Chennai, Coimbatore, Trichy, Tirupur, and Vellore</strong> <Link href="/spa-in-bangalore" className="text-green-400 font-semibold hover:underline">Bangalore.</Link> promote physical detoxification, boost immunity, and enhance overall well-being. You will feel a radiant glow, become more beautiful, and see an arresting of early aging signs. Our Ayurvedic massages rejuvenate not just your body but also recharge your mind, thus giving you an integral path toward perfect health and rejuvenation.</p>
             <motion.button className="bg-gradient-to-r from-green-600 to-green-400 text-white text-lg font-semibold py-4 px-12 rounded-full shadow-lg hover:from-green-500 hover:to-green-300 hover:shadow-green-400/50 transition-all duration-300 ease-in-out" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}> <a href="tel:+919500029234">Book Now</a></motion.button>

@@ -444,7 +444,7 @@ export default function PapayaWrapPage() {
             }}
           >
             <motion.h5
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-white mb-6 select-text"
+              className="text-xl md:text-2xl lg:text-3xl text-center font-extrabold text-white mb-6 select-text"
               {...fadeUp}
             >
               Discover the Secret to Radiant Skin with Our Revitalizing Papaya Treatments

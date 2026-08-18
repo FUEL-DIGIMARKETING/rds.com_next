@@ -24,7 +24,7 @@ const SportsMassagePage = () => {
     },
     {
       title: "Increased Flexibility",
-      description: "By having regular sessions of sports massage, you can improve your muscle elasticity and flexibility of joints, decreasing the risk of injuries and improving overall athletic performance. These massages ensure smoother and more efficient muscle function, by breaking down adhesions and scar tissue.",
+      description: "By having regular sessions of sports massage, you can improve your muscle elasticity and flexibility of joints, decreasing the risk of injuries and improving overall athletic performance. These massages ensure smoother and more efficient muscle function, by breaking down adhesions and scar tissue. Also, it will enhance your difficult movements with greater ease and precision, which is important for competitive sports.",
       icon: Zap,
     },
     {
@@ -147,7 +147,7 @@ const SportsMassagePage = () => {
                 className="text-xl lg:text-2xl font-bold text-[#8D7B68] mb-4 select-text"
                 {...fadeUp}
               >
-                Exposing the Moroccan Bath Relaxation
+                Experience Top-Tier Recovery and Rejuvenation in Chennai
               </motion.p>
               <motion.p
                 className="text-[#3E3636]/90 text-base text-justify leading-relaxed select-text"
@@ -156,7 +156,7 @@ const SportsMassagePage = () => {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
                 viewport={{ once: true }}
               >
-                To maintain muscle and flexibility, sports people always follow a heavy exercise routine and a controlled diet. At River Salon and Day Spa, through improved flow of blood, our specialized sports massage is designed to improve the strength of your body and enhance overall well-being. The massage will help not only in the recovery of muscle but also in reducing stress and preventing future injuries.
+                To maintain muscle and flexibility, sports people always follow a heavy exercise routine and a controlled diet. At <Link href="/" className="text-green-400 hover:underline">River Salon and Day Spa</Link> through improved flow of blood, our specialized sports massage is designed to improve the strength of your body and enhance overall well-being. The massage will help not only in the recovery of muscle but also in reducing stress and preventing future injuries.
               </motion.p>
             </motion.div>
 
@@ -223,7 +223,7 @@ const SportsMassagePage = () => {
               className="text-4xl lg:text-5xl font-bold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
-              The Benefits Of Sports Massage: Unlock Peak Performance
+              The Benefits of Sports Massage: Unlock Peak Performance
             </motion.h3>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full mb-6" />
           </div>
@@ -271,12 +271,12 @@ const SportsMassagePage = () => {
       <section className="py-16 bg-[#F8F5F0] text-[#3E3636] w-full select-text">
         <div className="max-w-7xl mx-auto px-4 select-text">
           <div className="text-center mb-16">
-            <motion.h2
+            <motion.p
               className="text-4xl lg:text-5xl font-bold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Why Choose River Salon and Day Spa?
-            </motion.h2>
+            </motion.p>
             <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-600 mx-auto rounded-full" />
           </div>
 
@@ -306,12 +306,12 @@ const SportsMassagePage = () => {
       {/* FAQ Section */}
       <section className="py-16 bg-[#F8F5F0]">
         <div className="text-center mb-12">
-          <motion.h3
-            className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-4"
+          <motion.h4
+            className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-4"
             {...fadeUp}
           >
             Frequently Asked Questions
-          </motion.h3>
+          </motion.h4>
         </div>
         <div className="max-w-4xl mx-auto px-4">
           <div className="space-y-6">
@@ -370,12 +370,12 @@ const SportsMassagePage = () => {
               boxShadow: '0 25px 45px rgba(0, 0, 0, 0.2)'
             }}
           >
-            <motion.h4
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
+            <motion.h5
+              className="text-xl md:text-2xl lg:text-4xl text-center font-extrabold text-[#8D7B68] mb-6 select-text"
               {...fadeUp}
             >
               Accelerate Healing with Specialized Care at River Salon and Day Spa
-            </motion.h4>
+            </motion.h5>
             <motion.div
               className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-400 mx-auto rounded-full mb-8"
               initial={{ scaleX: 0 }}

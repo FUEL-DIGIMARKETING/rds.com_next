@@ -110,7 +110,7 @@ const toggleAccordion = (index: number) => {
             viewport={{ once: true }}
           >
             <motion.h1
-              className="text-2xl lg:text-3xl font-bold text-[#8D7B68] mb-4"
+              className="text-3xl lg:text-4xl font-bold text-[#8D7B68] mb-4"
               {...fadeUp}
             >
               Best Body Massage Spa in Bypass Vellore - Perfect Relaxation
@@ -448,7 +448,7 @@ const toggleAccordion = (index: number) => {
         </motion.section>
         
          <section className="mb-20">
-            <div className="text-center mb-12"><motion.h4 className="text-2xl sm:text-3xl font-extrabold text-[#8D7B68] mb-4" {...fadeUp}>Frequently Asked Questions</motion.h4></div>
+            <div className="text-center mb-12"><motion.h5 className="text-xl sm:text-2xl font-extrabold text-[#8D7B68] mb-4" {...fadeUp}>Frequently Asked Questions</motion.h5></div>
             <div className="max-w-4xl mx-auto px-4">
               <div className="space-y-6">
                 {faqs.map((faq, index) => (

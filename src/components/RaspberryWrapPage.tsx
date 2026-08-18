@@ -365,9 +365,9 @@ export default function RaspberryWrapPage() {
                 >
                   <item.icon className="text-white text-2xl" />
                 </div>
-                <h3 className="text-sm font-semibold text-[#8D7B68] group-hover:text-green-600 transition-colors duration-300 text-center">
+                <p className="text-sm font-semibold text-[#8D7B68] group-hover:text-green-600 transition-colors duration-300 text-center">
                   {item.title}
-                </h3>
+                </p>
               </div>
             </motion.div>
           ))}
@@ -449,7 +449,7 @@ export default function RaspberryWrapPage() {
             }}
           >
             <motion.h5
-              className="text-2xl md:text-3xl lg:text-4xl text-center font-extrabold text-white mb-6 select-text"
+              className="text-xl md:text-2xl lg:text-3xl text-center font-extrabold text-white mb-6 select-text"
               {...fadeUp}
             >
               Experience Blissful Renewal with the Power of Raspberries
