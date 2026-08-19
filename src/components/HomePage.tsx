@@ -453,6 +453,8 @@ const HomePage = ({ recentBlogs = [] }: HomePageProps) => {
                         width={600}
                         height={450}
                         className="w-full h-[450px] object-cover bg-gray-200"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 60vw, 720px"
+                        unoptimized={false}
                       />
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
